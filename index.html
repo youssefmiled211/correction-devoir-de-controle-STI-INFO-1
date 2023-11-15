@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="conston.js"></script>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>ajoute d un habit </legend>
+            <label for="">cathegorie</label>
+            <select name="" id="liste">
+                <option value="0">selection un cathegorie </option>
+                <option value="1">robe de soire</option>
+                <option value="2">robe de mariee</option>
+                <option value="3">coftan</option>
+                <option value="4">costum</option>
+                <option value="5">jebba</option>
+            </select><br>
+            <label for="">discription</label><input type="text" name="dis" id="dis"><br>
+            <label for="">taile</label><input type="radio" name="s" id="s">s<input type="radio" value="m" id="m">m<input type="radio" value="l" id="l">l<input type="radio" value="xl" id="xl">xl <br>
+            <label for="">prix location</label><input type="number" name="prix" id="prix">DT<br>
+            <input type="reset" value="annuler">
+            <input type="submit" value="envoyer" onclick="verif1()">
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>location d un habit</legend>
+            <label for="">code habit</label><input type="text" name="ch" id="ch"><br>
+            <label for="">cin client</label><input type="text" name="cc" id="cc"><br>
+            <label for="">durre location</label><input type="number" name="dl" id="dl"><br>
+            <input type="button" value="annuler">
+            <input type="button" value="louer" onclick="verif2()">
+
+        </fieldset>
+    </form>
+</body>
+</html>
